@@ -1,2 +1,2 @@
-# telegram_notifier
+# Telegram notifier
 Simple telegram notifier.
