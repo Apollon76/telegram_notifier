@@ -1,0 +1,18 @@
+[package]
+name = "telegram_notifier"
+version = "0.1.0"
+authors = ["apollon <Apollon76@yandex.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+pretty_env_logger = "0.4.0"
+simple-error = "0.2.3"
+envconfig = "0.9.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "*", features = ["full"] }
+teloxide = { version = "0.5.3", features = ["auto-send", "teloxide-macros", "macros"] }
+log = "0.4"
