@@ -12,7 +12,7 @@ use teloxide::prelude::{AutoSend, Requester, RequesterExt};
 struct AppConfig {
     #[envconfig(from = "BOT_TOKEN")]
     pub bot_token: String,
-    #[envconfig(from = "CHAT_ID", default = "45707306")]
+    #[envconfig(from = "CHAT_ID")]
     pub chat_id: i64,
 }
 
