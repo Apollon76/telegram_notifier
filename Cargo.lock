@@ -1572,12 +1572,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "simple-error"
-version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cc47a29ce97772ca5c927f75bac34866b16d64e07f330c3248e2d7226623901b"
-
-[[package]]
 name = "slab"
 version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1706,11 +1700,7 @@ dependencies = [
  "log",
  "pretty_env_logger",
  "rocket",
- "serde",
- "serde_json",
- "simple-error",
  "teloxide",
- "tokio",
 ]
 
 [[package]]
@@ -1905,7 +1895,6 @@ dependencies = [
  "mio",
  "num_cpus",
  "once_cell",
- "parking_lot 0.11.2",
  "pin-project-lite",
  "signal-hook-registry",
  "tokio-macros",
