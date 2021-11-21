@@ -1,4 +1,4 @@
-FROM rust:1.51 as builder
+FROM rust:1.56.1 as builder
 WORKDIR /usr/src/telegram_notifier
 COPY Cargo.toml .
 COPY Cargo.lock .
