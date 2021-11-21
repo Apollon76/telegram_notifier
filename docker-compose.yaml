@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  notifier:
+    image: apollon76/telegram_notifier:latest
+    build: .
+    environment:
+      - RUST_BACKTRACE=full
+      - CHAT_ID=${CHAT_ID:-unset}
+      - BOT_TOKEN=${BOT_TOKEN:-unset}
+    depends_on:
+      - redis
+    restart: always
