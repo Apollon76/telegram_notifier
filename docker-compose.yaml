@@ -7,7 +7,7 @@ services:
       - RUST_BACKTRACE=full
       - CHAT_ID=${CHAT_ID:-unset}
       - BOT_TOKEN=${BOT_TOKEN:-unset}
-      - ROCKET_ENV=${ROCKET_ENV:-unset}
+      - ROCKET_ENV=${ROCKET_ENV:-prod}
       - ROCKET_PORT=${ROCKET_PORT:-8000}
       - ROCKET_ADDRESS=${ROCKET_ADDRESS:-0.0.0.0}
     restart: always
