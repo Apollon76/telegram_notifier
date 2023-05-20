@@ -13,3 +13,4 @@ envconfig = "0.9.1"
 teloxide = { version = "0.5.3", features = ["auto-send", "teloxide-macros", "macros"] }
 log = "0.4"
 async-trait = "0.1.51"
+actix-web = "4"
